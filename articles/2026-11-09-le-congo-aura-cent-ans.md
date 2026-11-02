@@ -49,7 +49,7 @@ Ce choix entre deux avenirs, d'autres l'ont pensé avant nous. Trois auteurs, à
 
 Machiavel va plus loin dans ses *Discours sur la première décade de Tite-Live*. Le salut d'un État, écrit-il, n'est pas d'avoir un prince qui gouverne sagement tant qu'il vit, mais un prince qui l'organise de manière qu'il se maintienne même après sa mort[^4]. Le grand dirigeant n'est pas celui dont on regrette l'absence : c'est celui dont l'œuvre tient sans lui.
 
-**Aristote, ou le but de la cité.** Dix-huit siècles plus tôt, Aristote rappelait que la cité naît pour permettre de vivre, mais qu'elle existe pour permettre de *bien vivre*[^5]. Un Congo de 218 millions d'habitants qui se contenterait de survivre aurait manqué sa vocation. La question de 2060 n'est pas seulement : combien serons-nous ? Elle est : comment vivrons-nous ensemble ?
+**Aristote, ou le but de la cité.** Dix-huit siècles plus tôt, Aristote rappelait que la cité naît pour permettre de vivre, mais qu'elle existe pour permettre de *bien vivre*[^5]. Un Congo de plus de 200 millions d'habitants qui se contenterait de survivre aurait manqué sa vocation. La question de 2060 n'est pas seulement : combien serons-nous ? Elle est : comment vivrons-nous ensemble ?
 
 **Thomas d'Aquin, ou la loi qui grandit avec le peuple.** Au XIIIe siècle, Thomas d'Aquin définit la loi comme une ordonnance de la raison en vue du bien commun[^6]. Il ajoute une idée décisive pour un pays en mutation rapide : la loi humaine peut légitimement être changée lorsque changent les conditions de vie des hommes[^7]. Les règles pensées pour le Congo de 1960 ne suffiront pas pour celui de 2060. Il ne s'agit pas de tout défaire, mais d'adapter avec raison, toujours en vue du bien commun.
 
