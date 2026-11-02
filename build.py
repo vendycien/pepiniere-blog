@@ -64,7 +64,7 @@ def load():
             **meta,
             "date": d,
             "slug": f.stem[11:],
-            "html": markdown.markdown(body, extensions=["extra", "sane_lists"]),
+            "html": markdown.markdown(body, extensions=["extra", "sane_lists"], extension_configs={"extra": {"footnotes": {"BACKLINK_TITLE": "Retour au texte (note %d)", "SEPARATOR": "-"}}}),
             "minutes": max(1, round(len(text.split()) / 200)),
             "brouillon": statut == "brouillon",
         })

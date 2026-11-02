@@ -72,3 +72,9 @@ h1, h2, h3, .brand { font-family: Fraunces, Georgia, serif; line-height: 1.2; }
 .hero-in { display: flex; align-items: center; gap: 40px; }
 .hero-logo { flex: none; width: 180px; height: auto; background: var(--fond); padding: 18px; border-radius: 50%; border: 3px solid var(--or); box-shadow: 0 10px 30px rgba(0,0,0,.25); }
 @media (max-width: 700px) { .hero-in { flex-direction: column; align-items: flex-start; gap: 20px; } .hero-logo { width: 120px; padding: 12px; } }
+.body sup a { text-decoration: none; font-weight: 600; color: var(--or); padding: 0 1px; }
+.body .footnote { font-size: .85rem; color: var(--gris); border-top: 1px solid var(--ligne); margin-top: 1em; }
+.body .footnote hr { display: none; }
+.body .footnote ol { padding-left: 1.4em; }
+.body .footnote li { margin: .4em 0; }
+.body .footnote-backref { text-decoration: none; margin-left: 4px; }

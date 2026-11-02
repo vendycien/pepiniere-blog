@@ -35,16 +35,16 @@ C'est pour cela qu'une institution « survit à ses fondateurs » : sa force ne 
 
 Cette idée n'a rien de neuf. Deux penseurs majeurs l'ont formulée il y a des siècles, et leurs réponses restent étonnamment actuelles.
 
-**Aristote (IVe siècle av. J.-C.) : la cité existe pour bien vivre.** Dans *Les Politiques*, il écrit que l'homme est « par nature un animal politique » : nous ne nous accomplissons pas seuls, mais au sein d'une communauté organisée. La cité naît pour assurer la survie, mais elle existe pour permettre de *bien vivre*. Pour Aristote, ce qui donne sa forme à une cité, c'est sa constitution, c'est-à-dire l'organisation de ses fonctions : qui exerce quel pouvoir, et selon quelles règles. Il en tire une conclusion forte : mieux vaut que ce soit la loi qui gouverne plutôt qu'un homme, car l'homme, même le meilleur, peut être emporté par ses passions, alors que la loi est « la raison sans le désir ».
+**Aristote (IVe siècle av. J.-C.) : la cité existe pour bien vivre.** Au livre I de la *Politique*, il établit que « naturellement l'homme est un être sociable[^1] » : nous ne nous accomplissons pas seuls, mais au sein d'une communauté organisée. La cité naît pour assurer la vie, mais elle subsiste pour permettre de *bien vivre*[^2]. Ce qui donne sa forme à une cité, c'est sa constitution : « La constitution est ce qui détermine dans l'État l'organisation régulière de toutes les magistratures[^3] », c'est-à-dire qui exerce quel pouvoir, et selon quelles règles. Il en tire une conclusion forte : « Il faut donc préférer la souveraineté de la loi à celle d'un des citoyens », car l'homme, même le meilleur, peut céder à ses passions, tandis que « la loi, c'est l'intelligence sans les passions aveugles[^4] ».
 
-**Thomas d'Aquin (XIIIe siècle) : la loi est une œuvre de la raison pour le bien commun.** Dans la *Somme théologique*, il définit la loi comme « une ordonnance de la raison en vue du bien commun, promulguée par celui qui a la charge de la communauté ». Chaque mot compte :
+**Thomas d'Aquin (XIIIe siècle) : la loi est une œuvre de la raison pour le bien commun.** Dans la *Somme théologique*, il définit la loi comme « une ordonnance de la raison en vue du bien commun, promulguée par celui qui a la charge de la communauté[^5] ». Chaque élément compte :
 
 - **de la raison** : une règle doit pouvoir se justifier, elle n'est pas un simple caprice du chef ;
 - **en vue du bien commun** : elle sert tout le monde, pas un clan ;
 - **par celui qui a la charge de la communauté** : l'autorité est une responsabilité, pas une propriété ;
 - **promulguée** : une règle que personne ne connaît ne peut pas être suivie.
 
-Il va plus loin : une loi injuste, qui sert l'intérêt de quelques-uns contre le bien commun, est selon lui « plutôt une violence qu'une loi ».
+Il va plus loin : une loi qui sert l'intérêt de celui qui la fait plutôt que le bien commun est injuste, et de telles lois « sont plutôt des violences que des lois[^6] ».
 
 **Ce que cela nous apprend aujourd'hui.** Les deux penseurs donnent la même boussole : une institution vaut par sa finalité (le bien commun) et par sa forme (des règles raisonnables, connues, qui s'imposent aussi aux dirigeants). Le « test du départ » en est la traduction pratique : si tout s'effondre quand le chef s'en va, c'est que l'on obéissait à un homme, pas à une loi.
 
@@ -75,7 +75,32 @@ C'est en pratiquant ces réflexes à petite échelle qu'une génération apprend
 
 **Envie d'aller plus loin ?** Recevez chaque quinzaine *Les Lettres de la Pépinière* et découvrez nos 12 chantiers pour le Congo de demain.
 
-## Pour lire les textes
+## Notes
 
-- Aristote, *Les Politiques*, livre I, chapitre 2 (l'homme, animal politique ; la cité et le bien vivre) et livre III, chapitres 6 et 16 (la constitution ; le gouvernement de la loi).
-- Thomas d'Aquin, *Somme théologique*, I-II, question 90, article 4 (définition de la loi) et question 96, article 4 (la loi injuste).
+///Footnotes Go Here///
+
+[^1]: Aristote, *Politique*, I, 2, 1253a2-3 (ὁ ἄνθρωπος φύσει πολιτικὸν ζῷον), trad. J. Barthélemy-Saint-Hilaire, livre I, chap. I, § 9. La traduction française usuelle rend πολιτικὸν ζῷον par « animal politique » ; Barthélemy-Saint-Hilaire traduit « être sociable ».
+
+[^2]: Aristote, *Politique*, I, 2, 1252b29-30 : la cité « naît en vue de vivre » (τοῦ ζῆν ἕνεκεν) mais « existe en vue de bien vivre » (τοῦ εὖ ζῆν). Nous traduisons ; Barthélemy-Saint-Hilaire (livre I, chap. I, § 8) rend le passage par « né d'abord des besoins de la vie, et subsistant parce qu'il les satisfait tous ».
+
+[^3]: Aristote, *Politique*, III, 6, 1278b8-10 (πολιτεία πόλεως τάξις τῶν τε ἄλλων ἀρχῶν καὶ μάλιστα τῆς κυρίας πάντων), trad. J. Barthélemy-Saint-Hilaire, livre III, chap. IV, § 1.
+
+[^4]: Aristote, *Politique*, III, 16, 1287a19-20 et 1287a32, trad. J. Barthélemy-Saint-Hilaire, livre III, chap. XI, § 3-4. Le grec dit littéralement : « la loi est un intellect sans désir » (ἄνευ ὀρέξεως νοῦς ὁ νόμος) ; l'adjectif « aveugles » est un ajout du traducteur.
+
+[^5]: Thomas d'Aquin, *Somme théologique*, Ia-IIae, q. 90, a. 4, resp. : « quaedam rationis ordinatio ad bonum commune, ab eo qui curam communitatis habet, promulgata ». Texte de l'édition léonine ; nous traduisons.
+
+[^6]: Thomas d'Aquin, *Somme théologique*, Ia-IIae, q. 96, a. 4, resp. : « huiusmodi magis sunt violentiae quam leges ». Thomas s'appuie ici sur saint Augustin, *De libero arbitrio*, I, 5, 11 : « lex esse non videtur, quae iusta non fuerit ». Nous traduisons.
+
+## Bibliographie
+
+**Sources**
+
+- ARISTOTE, *Politique d'Aristote*, traduite en français d'après le texte collationné sur les manuscrits et les éditions principales par J. Barthélemy-Saint-Hilaire, 3e éd. revue et corrigée, Paris, Ladrange, 1874. Texte consulté sur [Wikisource](https://fr.wikisource.org/wiki/La_Politique/Livre_III) et, pour le grec, dans l'édition bilingue de [remacle.org](http://remacle.org/bloodwolf/philosophes/Aristote/politique1.htm).
+- THOMAS D'AQUIN, *Summa theologiae*, Prima Secundae, qq. 90 et 96, dans *Opera omnia iussu impensaque Leonis XIII P. M. edita*, t. 7, Rome, Typographia Polyglotta S. C. de Propaganda Fide, 1892. Texte consulté sur le [Corpus Thomisticum](https://www.corpusthomisticum.org/sth2090.html) (q. 90) et [q. 96](https://www.corpusthomisticum.org/sth2095.html), Université de Navarre.
+
+**Pour approfondir**
+
+- ARISTOTE, *Les Politiques*, trad. Pierre Pellegrin, Paris, GF-Flammarion, 1990 (rééd. 2015). Traduction de référence actuelle, avec la numérotation Bekker.
+- THOMAS D'AQUIN, *Somme théologique*, trad. A.-M. Roguet et al., Paris, Éditions du Cerf, 1984-1986, t. 2 (Ia-IIae).
+
+*Les références à Aristote suivent la pagination standard de l'édition d'Immanuel Bekker (Berlin, 1831) : livre, chapitre, page, colonne et ligne. Les citations françaises d'Aristote sont tirées de la traduction de Barthélemy-Saint-Hilaire ; celles de Thomas d'Aquin sont traduites par nos soins du latin.*
