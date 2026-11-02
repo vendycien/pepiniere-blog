@@ -1,6 +1,6 @@
 ---
 titre: "Qu'est-ce qu'une institution, et pourquoi survit-elle à ses fondateurs ?"
-date: 2026-11-17
+date: 2026-11-02
 format: Comprendre
 rubrique: État et institutions
 chantier: Institutions

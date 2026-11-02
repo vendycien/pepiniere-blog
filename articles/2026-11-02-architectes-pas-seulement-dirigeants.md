@@ -1,6 +1,6 @@
 ---
 titre: "Pourquoi le Congo a besoin d'architectes, pas seulement de dirigeants"
-date: 2026-11-10
+date: 2026-11-02
 format: Tribune
 rubrique: Doctrine et méthode
 chantier: Institutions

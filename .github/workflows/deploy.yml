@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * *"   # chaque jour à 6 h (Kinshasa) : publie les articles programmés
 
 permissions:
   contents: read

@@ -20,8 +20,10 @@ h1, h2, h3, .brand { font-family: Fraunces, Georgia, serif; line-height: 1.2; }
 .top { background: var(--fond); color: var(--vert); border-bottom: 3px solid var(--or); }
 .top-in { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-top: 8px; padding-bottom: 8px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 12px; color: var(--vert); text-decoration: none; font-weight: 700; }
-.brand img { display: block; height: 75px; width: auto; mix-blend-mode: multiply; }
-.brand-txt { font-family: Fraunces, Georgia, serif; font-size: 1.3rem; padding-left: 12px; border-left: 2px solid var(--or); }
+.brand img { display: block; height: 58px; width: auto; }
+.brand-txt { font-family: Fraunces, Georgia, serif; font-size: 1.3rem; line-height: 1.1; letter-spacing: .01em; }
+.brand-txt em { font-style: normal; color: var(--feuille); }
+.brand-txt small { display: block; font-family: Inter, sans-serif; font-weight: 500; font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--or); margin-top: 5px; }
 .top nav { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
 .top nav a { color: var(--vert); text-decoration: none; font-size: .95rem; }
 .top nav a:hover { color: var(--feuille); }
@@ -66,7 +68,7 @@ h1, h2, h3, .brand { font-family: Fraunces, Georgia, serif; line-height: 1.2; }
 .foot a { color: #f3e6d6; }
 .foot p { margin: 4px 0; }
 
-@media (max-width: 600px) { .brand img { height: 60px; } .brand-txt { font-size: 1.1rem; } }
+@media (max-width: 600px) { .brand img { height: 46px; } .brand-txt { font-size: 1.1rem; } .brand-txt small { font-size: .58rem; letter-spacing: .08em; } }
 .hero-in { display: flex; align-items: center; gap: 40px; }
-.hero-logo { flex: none; width: 147px; height: auto; background: var(--fond); padding: 10px; border-radius: 16px; border: 2px solid var(--or); }
-@media (max-width: 700px) { .hero-in { flex-direction: column; align-items: flex-start; gap: 20px; } .hero-logo { width: 110px; } }
+.hero-logo { flex: none; width: 180px; height: auto; background: var(--fond); padding: 18px; border-radius: 50%; border: 3px solid var(--or); box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+@media (max-width: 700px) { .hero-in { flex-direction: column; align-items: flex-start; gap: 20px; } .hero-logo { width: 120px; padding: 12px; } }

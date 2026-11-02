@@ -52,6 +52,9 @@ def load():
         statut = str(meta.get("statut", "publié")).split("#")[0].strip()
         if statut == "brouillon" and not INCLUDE_DRAFTS:
             continue
+        d0 = meta["date"] if isinstance(meta["date"], date) else datetime.fromisoformat(str(meta["date"])).date()
+        if d0 > date.today() and not INCLUDE_DRAFTS:
+            continue  # programmé : sera publié automatiquement à sa date
         # le titre et le chapô sont rendus par le gabarit
         body = re.sub(r"^\s*# .*\n", "", body, count=1)
         body = re.sub(r"^\s*\*[^*\n].*\*\s*\n", "", body, count=1)
@@ -93,13 +96,13 @@ def layout(title, description, content, canonical, og_type="website"):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="{BASE}/favicon.png">
-<meta property="og:image" content="{SITE}{BASE}/logo.png">
+<meta property="og:image" content="{SITE}{BASE}/embleme.png">
 <link rel="stylesheet" href="{BASE}/style.css">
 </head>
 <body>
 <header class="top">
   <div class="wrap top-in">
-    <a class="brand" href="{BASE}/"><img src="{BASE}/logo.png" alt="La Pépinière des Élites, architecture d'un Congo nouveau" width="62" height="75"><span class="brand-txt">Le blog</span></a>
+    <a class="brand" href="{BASE}/"><img src="{BASE}/embleme.png" alt="" width="66" height="59"><span class="brand-txt">La Pépinière <em>des Élites</em><small>Le blog · Architecture d'un Congo nouveau</small></span></a>
     <nav>
       <a href="{M}/">Site principal</a>
       <a href="{M}/podcasts">Podcast</a>
@@ -148,7 +151,7 @@ def index_page(posts):
     cards = "\n".join(card(p) for p in posts) or "<p>Premiers articles très bientôt.</p>"
     content = f"""<section class="hero">
   <div class="wrap hero-in">
-    <img class="hero-logo" src="{BASE}/logo.png" alt="" width="147" height="177">
+    <img class="hero-logo" src="{BASE}/embleme.png" alt="" width="180" height="160">
     <div>
     <p class="kicker">Le blog</p>
     <h1>Penser le Congo de demain, aujourd'hui.</h1>
@@ -225,7 +228,7 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
-    for f in ("style.css", "logo.png", "favicon.png"):
+    for f in ("style.css", "embleme.png", "favicon.png"):
         shutil.copy(ASSETS / f, OUT / f)
     (OUT / "index.html").write_text(index_page(posts), encoding="utf-8")
     for p in posts:
