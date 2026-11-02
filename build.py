@@ -92,14 +92,16 @@ def layout(title, description, content, canonical, og_type="website"):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="{BASE}/favicon.png">
+<meta property="og:image" content="{SITE}{BASE}/logo.png">
 <link rel="stylesheet" href="{BASE}/style.css">
 </head>
 <body>
 <header class="top">
   <div class="wrap top-in">
-    <a class="brand" href="{M}/">La Pépinière <span>des Élites</span></a>
+    <a class="brand" href="{BASE}/"><img src="{BASE}/logo.png" alt="La Pépinière des Élites, architecture d'un Congo nouveau" width="62" height="75"><span class="brand-txt">Le blog</span></a>
     <nav>
-      <a href="{BASE}/">Blog</a>
+      <a href="{M}/">Site principal</a>
       <a href="{M}/podcasts">Podcast</a>
       <a href="{M}/#lettres">Lettres</a>
       <a class="cta" href="{M}/#candidature">Rejoindre le cercle</a>
@@ -145,10 +147,13 @@ def index_page(posts):
     filtres = "".join(f'<button data-f="{slugify(r)}">{e(r)}</button>' for r in present)
     cards = "\n".join(card(p) for p in posts) or "<p>Premiers articles très bientôt.</p>"
     content = f"""<section class="hero">
-  <div class="wrap">
+  <div class="wrap hero-in">
+    <img class="hero-logo" src="{BASE}/logo.png" alt="" width="147" height="177">
+    <div>
     <p class="kicker">Le blog</p>
     <h1>Penser le Congo de demain, aujourd'hui.</h1>
     <p>Analyses, tribunes et explications sur les 12 chantiers de la nation. Pour comprendre, concevoir et transmettre.</p>
+    </div>
   </div>
 </section>
 <section class="wrap">
@@ -220,7 +225,8 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
-    shutil.copy(ASSETS / "style.css", OUT / "style.css")
+    for f in ("style.css", "logo.png", "favicon.png"):
+        shutil.copy(ASSETS / f, OUT / f)
     (OUT / "index.html").write_text(index_page(posts), encoding="utf-8")
     for p in posts:
         d = OUT / p["slug"]
